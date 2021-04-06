@@ -2,4 +2,23 @@ Go to github.com
 
 Search dhruvsaidava
 
-check for repo name
+check for repo name pilot-repo-ms
+
+click on code
+
+Copy link     https://github.com/dhruvsaidava/pilot-repo-ms.git
+
+
+go to folder
+
+right click
+
+open git bash here
+
+write
+
+git clone https://github.com/dhruvsaidava/pilot-repo-ms.git
+
+then regularly do 
+
+git pull
