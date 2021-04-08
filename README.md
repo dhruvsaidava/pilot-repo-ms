@@ -17,7 +17,7 @@ Primary website is at [https://tinkering.in](https://tinkering.in/).
 
 - Unofficial sources: https://arduino.codes  Contributed by Community 
 
-Credits : [https://github.com/amodm/api-covid19-in](https://github.com/dhruvsaidava) Founder Tinkering India
+Credits : [https://github.com/dhruvsaidava](https://github.com/dhruvsaidava) Founder Tinkering India
 
 ### List of Partner Schools for Pilot : ( 2 Schools from each state will be selected )
 
