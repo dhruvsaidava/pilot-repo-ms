@@ -1,6 +1,6 @@
-int trigger_pin = 2;
-int echo_pin = 3;
-int buzzer_pin = 10; 
+int trigger_pin = 9;
+int echo_pin = 10;
+int buzzer_pin = 13; 
 int time;
 int distance; 
 
@@ -9,6 +9,10 @@ void setup ( ) {
         pinMode (trigger_pin, OUTPUT); 
         pinMode (echo_pin, INPUT);
         pinMode (buzzer_pin, OUTPUT);
+        pinMode (8,OUTPUT);
+        pinMode (11, OUTPUT);
+        digitalWrite(11, HIGH);
+        digitalWrite(8, LOW);
 }
 void loop ( ) {
     digitalWrite (trigger_pin, HIGH);
