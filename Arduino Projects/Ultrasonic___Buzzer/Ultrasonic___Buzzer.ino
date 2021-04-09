@@ -11,8 +11,8 @@ void setup ( ) {
         pinMode (buzzer_pin, OUTPUT);
         pinMode (8,OUTPUT);
         pinMode (11, OUTPUT);
-        digitalWrite(11, HIGH);
-        digitalWrite(8, LOW);
+        digitalWrite(11, LOW);
+        digitalWrite(8, HIGH);
 }
 void loop ( ) {
     digitalWrite (trigger_pin, HIGH);
@@ -21,7 +21,7 @@ void loop ( ) {
     time = pulseIn (echo_pin, HIGH);
     distance = (time * 0.034) / 2;
     
-  if (distance <= 150) 
+  if (distance <= 15) 
         {
         Serial.println (" Door Close ");
         Serial.print (" Distance= ");              
