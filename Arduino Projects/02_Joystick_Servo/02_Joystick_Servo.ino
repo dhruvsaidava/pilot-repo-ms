@@ -26,26 +26,26 @@ x_pos = analogRead (x_key) ;
 y_pos = analogRead (y_key) ;                      
 
 if (x_pos < 300){
-if (initial_position < 10) { } else{ initial_position = initial_position - 20; servo1.write ( initial_position ) ; delay (1000) ; } } if (x_pos > 700){
+if (initial_position < 10) { } else{ initial_position = initial_position - 20; servo1.write ( initial_position ) ; delay (10) ; } } if (x_pos > 700){
 if (initial_position > 180)
 {  
 }  
 else{
 initial_position = initial_position + 20;
 servo1.write ( initial_position ) ;
-delay (100) ;
+delay (10) ;
 }
 }
 
 if (y_pos < 300){
-if (initial_position1 < 10) { } else{ initial_position1 = initial_position1 - 20; servo2.write ( initial_position1 ) ; delay (1000) ; } } if (y_pos > 700){
+if (initial_position1 < 10) { } else{ initial_position1 = initial_position1 - 20; servo2.write ( initial_position1 ) ; delay (10) ; } } if (y_pos > 700){
 if (initial_position1 > 180)
 {  
 }        
 else{
 initial_position1 = initial_position1 + 20;
 servo2.write ( initial_position1 ) ;
-delay (100) ;
+delay (10) ;
 }
 }
 }

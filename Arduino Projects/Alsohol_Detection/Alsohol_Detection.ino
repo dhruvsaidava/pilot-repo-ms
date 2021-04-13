@@ -14,9 +14,9 @@ void loop() {
   Serial.println(sensorValue);
   delay(1);        // delay in between reads for stability
 
-if (sensorValue <= 120) 
+if (sensorValue <= 420) 
         {
-        Serial.println (" Smoke Absent ");
+        Serial.println (" Alcohol Absent ");
         Serial.print (" Value = ");              
         Serial.println (sensorValue);        
         digitalWrite (8, LOW);
@@ -24,7 +24,7 @@ if (sensorValue <= 120)
         }
 
   else {
-        Serial.println (" Smoke Present ");
+        Serial.println (" Alcohol Present ");
         Serial.print (" Value = ");              
         Serial.println (sensorValue);        
         digitalWrite (8, HIGH);
