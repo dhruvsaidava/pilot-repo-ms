@@ -39,7 +39,11 @@ Submit an issue or feature request at dhruvsaidava@gmail.com or contact the main
 
 ## Download
 
-Download Git Bash from 
+Download Git Bash from [here](https://git-scm.com/downloads)
 
 ### Clone this Repositary :
 
+git clone http://github/dhruvsaidava/pilot-repo-ms.git
+
+
+once cloned take use git pull command to take changes.
